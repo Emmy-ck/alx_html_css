@@ -15,17 +15,17 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, figure, figcaption {
   }
   
   /* Grid section */
-
-  [class*='col-'] {
-    margin: 1rem;
-  }
-    .col-1-3 {
+  .col-1-3 {
     flex-basis: calc((100% / 3) - 2rem);
     margin: 1rem;
   }
 
   .col-1-2 {
     flex-basis: calc((100% / 2) - 2rem);
+    margin: 1rem;
+  }
+
+  [class*='col-'] {
     margin: 1rem;
   }
 
@@ -121,10 +121,6 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, figure, figcaption {
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .col-1-3 {
-    flex-basis: calc((100% / 3) - 2rem);
-    margin: 1rem;
-  }
   .card-services {
     background-color: #f1f1f1;
     padding: 2rem;
@@ -207,11 +203,7 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, figure, figcaption {
   
   .row {
     align-items: center;
-  }
-  .col-1-2 {
-    flex-basis: calc((100% / 2) - 2rem);
-    margin: 1rem;
-  }
+
   .col-1-2 img {
     max-width: 100%;
     height: auto;
@@ -302,13 +294,4 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, figure, figcaption {
     }
     .row {
       flex-direction: column;
-    }
-    .col-1-3 {
-        flex-basis: calc((100% / 3) - 2rem);
-        margin: 1rem;
-    }
-    .col-1-2 {
-        flex-basis: calc((100% / 2) - 2rem);
-        margin: 1rem;
-    }
   }
