@@ -84,6 +84,11 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, figure, figcaption {
     color: #888;
     margin-bottom: 2rem;
   }
+  .section-works {
+    background-color: #444;
+    color: #fff;
+    padding: 2rem 0;
+  }
   .row {
     display: flex;
     flex-wrap: wrap;
@@ -161,8 +166,14 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, figure, figcaption {
     height: auto;
     margin-bottom: 1rem;
   }
+  
+  /* Latest news section styles */
+  .section-latest_news {
+    padding: 2rem 0;
+  }
+  }
   /* Testimonials section styles */
-  .section-testimonials {
+  .section-testimonial {
     background-color: #f1f1f1;
     padding: 2rem 0;
   }
