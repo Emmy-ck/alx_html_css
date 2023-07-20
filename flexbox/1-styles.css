@@ -149,9 +149,15 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, figure, figcaption {
     color: #007bff;
   }
   
-  /* About Us section styles */
+  /* About section styles */
   .section-about {
     /*padding: 2rem 0;*/
+    background-color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  .card-about {
     background-color: #f1f1f1;
     padding: 1rem;
     text-align: center;
