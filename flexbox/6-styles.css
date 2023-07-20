@@ -1,9 +1,9 @@
 /** Navbar section */
-.nav {
+.nav .nav-item{
     display: flex;
 }
-.nav .nav-item {
-    margin-left: 2rem;
+.nav .nav-item + .nav-item{
+    margin: 2rem;
 }
 :root {
     --text-color: var(--color-black);
