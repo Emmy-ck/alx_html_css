@@ -191,14 +191,13 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, figure, figcaption {
     margin-bottom: 1rem;
   }
   
-  /* /* Section Latest news ============================= */
-  .section-latest-news {
-    padding: 2rem 0;
-  }
+  /* Section Latest news ============================= */
   .section-latest-news .row {
     flex-direction: row-reverse;
   }
-
+  .section-latest-news {
+    padding: 2rem 0;
+  }
   /*** 4. CARD ***/
   
   /* Testimonials section styles */

@@ -68,12 +68,11 @@ html, body, h1, h2, h3, h4, h5, h6, p, ul, li, figure, figcaption {
   }
   
   /* Section SERVICES ============================= */
-
+  .section-services .row {
+    flex-wrap: wrap;
+  }
   .section-services {
     padding: 2rem 0;
-  }
-  .section-services .row{
-    flex-wrap: wrap;
   }
   .section-header {
     text-align: center;
