@@ -2,7 +2,7 @@
 .nav {
     display: flex;
 }
-.nav .nav-item + .nav-item {
+.nav .nav-item {
     margin-left: 2rem;
 }
 :root {
