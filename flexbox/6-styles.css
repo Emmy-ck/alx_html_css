@@ -4,7 +4,7 @@
     margin: 0;
 }
 .nav .nav-item {
-    margin-left: 2rem;
+    margin: var(--nav-item-margin);
 }
 .nav .nav-item + .nav-item {
     margin-left: 1rem;
