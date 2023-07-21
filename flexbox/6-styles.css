@@ -1,6 +1,7 @@
 /** Navbar section */
 .nav {
     display: flex;
+    margin: 0;
 }
 .nav .nav-item {
     margin-left: 2rem;
