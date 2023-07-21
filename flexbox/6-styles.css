@@ -4,10 +4,10 @@
     margin: 0;
 }
 .nav .nav-item {
-    margin: var(--nav-item-margin);
+    margin-left: 2rem;
 }
 .nav .nav-item + .nav-item {
-    margin-left: 1rem;
+    margin: var(--nav-item-margin);
 }
 :root {
     --text-color: var(--color-black);
