@@ -6,7 +6,7 @@
     margin-left: 2rem;
 }
 .nav .nav-item + .nav-item {
-    margin-top: 1rem;
+    margin-top: 10px;
 }
 :root {
     --text-color: var(--color-black);
